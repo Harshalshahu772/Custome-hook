@@ -1,0 +1,14 @@
+.fruit-form{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-around;
+}
+.form-dialog{
+    overflow: hidden;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}

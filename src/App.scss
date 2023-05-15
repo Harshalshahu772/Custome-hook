@@ -1,0 +1,38 @@
+.width100{
+    width: 98%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 5px;
+}
+
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+  
+    label {
+        color: rgb(53, 243, 53);
+        margin: 5px 0;
+    }
+    input { 
+        margin: 5px 0;
+    }
+
+    .input-error {
+        border: 2px solid red;
+    }
+
+    .min-length {
+        text-align: right;
+    font-size: 10px;
+    }
+}
+
+.error-text {
+    color: red;
+
+}
